@@ -20,7 +20,7 @@ module ExecJS
 
     Node = ExternalRuntime.new(
       name:        "Node.js (V8)",
-      command:     ["node", "nodejs"],
+      command:     ["/usr/local/nvm/versions/node/v10.24.1/bin/node"],
       runner_path: ExecJS.root + "/support/node_runner.js",
       encoding:    'UTF-8'
     )
